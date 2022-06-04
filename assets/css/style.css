@@ -1,0 +1,75 @@
+.offcanvas {
+  min-width: 100%;
+}
+
+body {
+  background-image: url(../img/fondo001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: "Tiro Bangla", serif;
+}
+
+.menu {
+  z-index: 1;
+  max-width: 100%;
+  margin: 0px 15px 0px 0px;
+  font-size: 20px;
+}
+
+.menu .menu-horizontal {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu .menu-horizontal li:hover {
+  background-color: #f39f38;
+}
+
+.menu .menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu .menu-horizontal li a {
+  display: block;
+  padding: 15px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu .menu-horizontal .menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: black;
+}
+
+.card img:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+h3 {
+  font-family: "Tiro Bangla", serif;
+}
+
+p {
+  font-family: "Tiro Bangla", serif;
+}
+
+.footer .h3 {
+  color: #f39f38;
+}
+
+.footer .logo {
+  max-height: 150px;
+}
+/*# sourceMappingURL=style.css.map */

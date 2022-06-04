@@ -1,0 +1,70 @@
+@import "variables";
+
+.offcanvas {
+    min-width: 100%;
+}
+body {background-image: url(../img/fondo001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100%;         
+}
+
+h1 {
+    font-family: $fuenteTitulo;
+}
+.menu {
+    z-index: 1;
+    max-width: 100%;
+    margin: 0px 15px 0px 0px;
+    font-size: 20px;
+
+    .menu-horizontal {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            &:hover {
+                background-color: $colorNaranja;
+
+                .menu-vertical {
+                    display: block;
+                }
+            }
+        }
+
+        li a {
+            display: block;
+            padding: 15px 15px;
+            color: $colorBlanco;
+            text-decoration: none;
+        }
+
+        .menu-vertical {
+            position: absolute;
+            display: none;
+            list-style: none;
+            width: 200px;
+            background-color: $colorNegro;
+        }
+    }
+}
+.card {
+    img {
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}
+h3 {
+    font-family: $fuenteTitulo;
+}
+p {
+    font-family: $fuenteParrafo;
+}
+.footer {
+    .h3 {
+    color: $colorNaranja;}
+    .logo {
+        max-height: 150px;}    
+}
